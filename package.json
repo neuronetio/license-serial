@@ -1,5 +1,5 @@
 {
-  "name": "software-license-key",
+  "name": "license-serial",
   "version": "1.0.0",
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timtutt/software-license-key.git"
+    "url": "git+https://github.com/neuronetio/license-serial.git"
   },
   "keywords": [
     "software",
@@ -20,12 +20,12 @@
   "author": "Tim Tutt <tim@timtutt.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timtutt/software-license-key/issues"
+    "url": "https://github.com/neuronetio/license-serial/issues"
   },
-  "homepage": "https://github.com/timtutt/software-license-key#readme",
+  "homepage": "https://github.com/neuronetio/license-serial#readme",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
-    "node-rsa": "^0.4.2"
+    "crypto-js": "^4.0.0",
+    "node-rsa": "^1.1.1"
   },
   "devDependencies": {
     "mocha": "^5.1.1"
